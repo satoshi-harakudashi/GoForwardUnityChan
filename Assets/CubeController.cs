@@ -36,7 +36,6 @@ public class CubeController : MonoBehaviour
         if (collision.gameObject.tag == "GroundTag" || collision.gameObject.tag == "BlockTag")
         {
             audio.Play();
-            Invoke("AudioStop", 1);
         }
     }
 
